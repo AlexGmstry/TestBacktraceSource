@@ -1,0 +1,115 @@
+
+# =================== #
+# User-specific files #
+# =================== #
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ================================================ #
+# User-specific files (MonoDevelop/Xamarin Studio) #
+# ================================================ #
+*.userprefs
+
+# ============= #
+# Build results #
+# ============= #
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Ss]witchIL2CPPStats/
+[Ss]witchIL2CPPCache/
+
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ================================= #
+# ReSharper is a .NET coding add-in #
+# ================================= #
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ========================================== #
+# Visual Studio 2015 cache/options directory #
+# ========================================== #
+.vs/
+
+# =================== #
+# MSTest test Results #
+# =================== #
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+[Uu]serSettings/
+*.stackdump
+ sysinfo.txt
+ build_info.txt
+ UDPInstaller.meta
+ 
+# ===================================== #
+# IDE generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+*.csproj
+*.userprefs
+*.pidb
+*.suo
+*.sln*
+*.user
+*.unityproj
+*.booproj
+.idea/
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+
+ehthumbs.db
+[Tt]humbs.db
+*.apk
+*.exe
+
+# ========== #
+# Exclusions #
+# ========== #
+!*.obj
+!*.dll
+Assets/StreamingAssets/build_info.txt
+Assets/UDPInstaller/Editor.meta
+Assets/UDPInstaller.meta
+Assets/Editor/UnityOptimizerBuildLogExtender.cs
+Assets/Editor/UnityOptimizerBuildLogExtender.cs.meta
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+Assets/StreamingAssets/build_info
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml
+Assets/Firebase/Editor/generate_xml_from_google_services_json.exe.meta
+Assets/Firebase/Editor/network_request.exe.meta
+Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml.meta
+Addressables
+LiberationSans SDF - Fallback.asset
+!Library/com.unity.addressables/
+Library/com.unity.addressables/AddressablesBuildTEP.json
+*.psd
+*.snap
+*.bc7
+*.ai
+*.zip
+*.unitypackage
