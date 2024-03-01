@@ -3,6 +3,7 @@ using Backtrace.Unity.Model;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Diagnostics;
 
 public class StartupScript : MonoBehaviour
 {
@@ -37,5 +38,11 @@ public class StartupScript : MonoBehaviour
             );
             _backtraceClient.Send(report);
         }
+    }
+
+    public void Crash()
+    {
+        Debug.LogError("Crash button was pressed.");
+        Utils.ForceCrash(ForcedCrashCategory.FatalError);
     }
 }
